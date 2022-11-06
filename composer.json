@@ -35,7 +35,8 @@
         "maennchen/zipstream-php": "^2.0",
         "spatie/image": "^2.2.2",
         "spatie/temporary-directory": "^2.0",
-        "symfony/console": "^6.0"
+        "symfony/console": "^6.0",
+        "jenssegers/mongodb": "dev-master",
     },
     "require-dev": {
         "ext-pdo_sqlite": "*",
@@ -53,6 +54,11 @@
         "spatie/pdf-to-image": "^2.1",
         "spatie/phpunit-snapshot-assertions": "^4.2",
         "pestphp/pest": "^1.21"
+    },
+    "repositories": [
+    {
+      "type": "vcs",
+      "url": "git@github.com:PawelBeska/laravel-mongodb.git"
     },
     "conflict": {
         "php-ffmpeg/php-ffmpeg": "<0.6.1"
