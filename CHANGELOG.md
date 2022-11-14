@@ -2,6 +2,34 @@
 
 All notable changes to `laravel-medialibrary` will be documented in this file
 
+## 10.7.1 - 2022-11-09
+
+### What's Changed
+
+- fix #3090 syncMediaPath incorrectly comparing paths by @SlyDave in https://github.com/spatie/laravel-medialibrary/pull/3092
+
+**Full Changelog**: https://github.com/spatie/laravel-medialibrary/compare/10.7.0...10.7.1
+
+## 9.12.4 - 2022-11-09
+
+### What's Changed
+
+- fix #3090 - branch v9 PHP 7.4 version of the fix by @SlyDave in https://github.com/spatie/laravel-medialibrary/pull/3091
+
+**Full Changelog**: https://github.com/spatie/laravel-medialibrary/compare/9.12.3...9.12.4
+
+## 10.7.0 - 2022-11-09
+
+### What's Changed
+
+- Added option to set custom queue connection by @rahulhaque in https://github.com/spatie/laravel-medialibrary/pull/3085
+
+### New Contributors
+
+- @rahulhaque made their first contribution in https://github.com/spatie/laravel-medialibrary/pull/3085
+
+**Full Changelog**: https://github.com/spatie/laravel-medialibrary/compare/10.6.1...10.7.0
+
 ## 10.6.1 - 2022-11-04
 
 ### What's Changed
